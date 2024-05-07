@@ -1,12 +1,18 @@
 
+import CardHeaderItem from '../header/CardHeaderItem';
 import ContentHeader from '../header/ContentHeader';
 import Navbar from '../header/Navbar';
 
 const Header = () => {
     return (
-        <div>
-            <Navbar></Navbar>
-            <ContentHeader></ContentHeader>
+        <div className='bg-gradient-to-tl from-green-500 to-indigo-500'>
+            <div className='bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-lg'>
+                <Navbar></Navbar>
+                <ContentHeader></ContentHeader>
+              
+                <CardHeaderItem></CardHeaderItem>
+                
+            </div>
         </div>
     );
 };

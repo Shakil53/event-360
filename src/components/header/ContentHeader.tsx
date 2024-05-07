@@ -7,9 +7,9 @@ const ContentHeader = () => {
             {/* hearder content section */} 
             <div className="space-y-2">
                 <h1 className="text-2xl md:text-6xl font-extrabold bg-gradient-to-tr from-red-500 to-lime-500 bg-clip-text">BRAND NEW <br/>EVENR PACKAGES</h1>
-                <h3 className="text-2xl md:text-4xl font-extrabold">For Winter</h3>
+                <h3 className="text-2xl md:text-4xl font-extrabold text-gray-800 leading-relaxed">For Winter</h3>
                 <div>
-                <p className="hidden md:inline-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate.Faucibus nec gravida ipsum pulvinar vel non.</p>
+                <p className="hidden md:inline-block text-gray-800 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit vulputate.Faucibus nec gravida ipsum pulvinar vel non.</p>
                 </div>
                 <Button className="w-48 bg-[#3461FF]" variant="destructive">Explore</Button>
             </div>
