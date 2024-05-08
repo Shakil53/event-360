@@ -1,9 +1,12 @@
+import CarouselClient from "../clientSection/CarouselClient";
+import ClientSection from "../clientSection/ClientSection";
 
 
 const Home = () => {
     return (
-        <div>
-            <h1>This is home</h1>
+        <div className="w-full max-w-[1280px] mx-auto items-center">
+            <ClientSection></ClientSection>
+           <CarouselClient></CarouselClient>
         </div>
     );
 };

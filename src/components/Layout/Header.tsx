@@ -1,4 +1,3 @@
-
 import CardHeaderItem from '../header/CardHeaderItem';
 import ContentHeader from '../header/ContentHeader';
 import Navbar from '../header/Navbar';
@@ -9,10 +8,10 @@ const Header = () => {
             <div className='bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 shadow-lg'>
                 <Navbar></Navbar>
                 <ContentHeader></ContentHeader>
-              
                 <CardHeaderItem></CardHeaderItem>
                 
             </div>
+                
         </div>
     );
 };
