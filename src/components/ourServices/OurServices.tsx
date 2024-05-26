@@ -6,13 +6,13 @@ import { Button } from '../ui/button';
 const OurServices = () => {
     return (
         <div className="mt-10 md:mt-20 bg-gradient-to-tl from-[#6FCF97] to-pink-300">
-            <div className="bg-white bg-opacity-80 backdrop-contrast-125 backdrop-filter backdrop-blur-3xl p-4 shadow-lg">
+            <div className="bg-white bg-opacity-90 backdrop-contrast-125 backdrop-filter backdrop-blur-3xl p-4 shadow-lg">
             <h1 className="text-2xl md:text-6xl font-bold text-center mt-10">Our Services</h1>
                 <p className="text-center mt-4">Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.</p>
                 
                 {/* card section 1--------------*/}
                 
-            <div className='grid gap-4 md:gap-2 grid-cols-1 md:grid-cols-3 justify-between'>
+            <div className='w-full mx-auto flex flex-col md:flex-row md:justify-between items-center md:items-center mt-6 space-y-4 md:space-y-0'>
                     
                 <div className="card w-96 bg-base-100 shadow-md mt-10">
                     <figure className="px-3 pt-3">

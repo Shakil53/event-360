@@ -1,7 +1,9 @@
 import EventItems from "../EventItem/EventItems";
+import Gallery from "../Gallery/Gallery";
 import CarouselClient from "../clientSection/CarouselClient";
 import ClientSection from "../clientSection/ClientSection";
 import OurServices from "../ourServices/OurServices";
+import Pricing from "../pricing/Pricing";
 
 
 const Home = () => {
@@ -11,6 +13,8 @@ const Home = () => {
             <CarouselClient></CarouselClient>
             <OurServices></OurServices>
             <EventItems></EventItems>
+            <Pricing></Pricing>
+            <Gallery></Gallery>
         </div>
     );
 };
