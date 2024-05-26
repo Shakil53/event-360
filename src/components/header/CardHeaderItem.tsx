@@ -7,7 +7,7 @@ const CardHeaderItem = () => {
 
 <div className='flex w-full max-w-[1280px] mx-auto mb-8 mt-4 md:-mt-16 flex-col md:flex-row items-center space-y-4 md:space-y-0 gap-2 md:gap-10'>
              <div className=''>
-            <Card className="w-56 bg-opacity-50 backdrop-filter backdrop-blur-sm rounded-3xl">
+            <Card className="w-56 bg-opacity-50 backdrop-filter backdrop-contrast-125 backdrop-blur-sm rounded-3xl">
       
         <CardContent className='p-5 '>
                     <div className='rounded-3xl w-[48px] h-[48px] bg-[#ffb443] opacity-35 flex justify-center items-center'>
